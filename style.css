@@ -1,0 +1,31 @@
+body{
+    background:rgb(34, 33, 33);
+}
+
+html{
+    color: white;
+}
+
+button{
+    color:white;
+    background:black;
+    border:none;
+    cursor: pointer;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+}
+
+li{
+    text-align: center;
+    background: white;
+    color:black;
+    list-style: none;
+    border:solid black 1px;
+}
