@@ -7,8 +7,9 @@ html{
 }
 
 button{
-    color:white;
-    background:black;
+    color:black;
+    font-size: 1rem;
+    background:#ABABAB;
     border:none;
     cursor: pointer;
 
@@ -28,4 +29,17 @@ li{
     color:black;
     list-style: none;
     border:solid black 1px;
+}
+
+
+
+.check{
+    background: #6DDE45;
+    background-image:url(./Icons/checkmark_83735.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:55px;
+    height:55px;
+
 }
