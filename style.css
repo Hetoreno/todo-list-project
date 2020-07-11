@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background:rgb(34, 33, 33);
 }
@@ -22,6 +27,12 @@ section{
     justify-content: center;
     min-height:100vh;
 }
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:0;
+}
 
 li{
     text-align: center;
@@ -29,9 +40,13 @@ li{
     color:black;
     list-style: none;
     border:solid black 1px;
+    width: 100%;
 }
 
-
+.box{
+    min-height: 50vh;
+    padding:2rem;
+}
 
 .check{
     background: #6DDE45;
@@ -39,7 +54,16 @@ li{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width:55px;
-    height:55px;
+    width:20px;
+    height:19px;
+}
 
+.trash{
+    background: red;
+    background-image:url(./Icons/seo-social-web-network-internet_262_icon-icons.com_61518.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 19px;
 }
