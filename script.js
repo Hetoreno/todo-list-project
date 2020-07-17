@@ -7,6 +7,7 @@ buttton.addEventListener("click",function (){
     const cButton = document.createElement("button");
     const tButton = document.createElement("button");
 
+
     newItem.classList.add(`item`);
     newItem.innerText = input.value;
     input.value="";
@@ -19,4 +20,14 @@ buttton.addEventListener("click",function (){
     tButton.classList.add(`trash`);
     tButton.innerText ="";
     list.appendChild(tButton);
+
+
+
+    list.addEventListener("click",deleteItem);
+
 });
+
+function deleteItem(event){
+    event.target.remove();
+};
+
